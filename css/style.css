@@ -1,0 +1,89 @@
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  background-image: url(../download.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vmax; }
+
+#form-data input {
+  font-size: 1.2rem; }
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  margin: 0; }
+
+#wiki-items li:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff; }
+
+#wiki-items {
+  list-style: none;
+  padding: 0; }
+
+#wiki-items li {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border: outset thin;
+  background-image: linear-gradient(45deg, #CFD8DC, #fafafa);
+  margin: 20px auto;
+  padding: 0.5rem;
+  border: solid thin;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 2px 20px 2px #000;
+          box-shadow: 2px 2px 20px 2px #000; }
+
+hr {
+  width: 15%;
+  border: solid thin; }
+
+@media screen and (min-width: 60rem) {
+  body {
+    margin: 0 15vmax; } }
+
+@media screen and (max-width: 59rem) {
+  body {
+    margin: 20px; }
+  #wiki-items li {
+    padding: 0.4rem; } }
+
+.come-in {
+  -webkit-animation: come-in 0.4s ease forwards;
+          animation: come-in 0.4s ease forwards; }
+
+.go-out {
+  -webkit-animation: go-out 0.4s ease forwards;
+          animation: go-out 0.4s ease forwards; }
+
+@-webkit-keyframes come-in {
+  to {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06); } }
+
+@keyframes come-in {
+  to {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06); } }
+
+@-webkit-keyframes go-out {
+  from {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06); }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes go-out {
+  from {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06); }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
