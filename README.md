@@ -21,6 +21,9 @@ AJAX call. It searches wiki API data for the given keayword and list out the res
 
 * https://gauravsinghaec.github.io/fcc-wiki-viewer/
 
+![image](https://user-images.githubusercontent.com/15084301/44958121-09d76180-aef9-11e8-8dfd-4e9ed5c6558f.png)
+
+
 ## Folder Structure
 Your project folder should look like this:
 ```sh
